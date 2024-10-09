@@ -1,80 +1,70 @@
-<h1 align="center">
-    Education MANAGEMENT SYSTEM
-</h1>
+# Getting Started with Create React App
 
-<h3 align="center">
-Streamline school management, class organization, and add students and faculty.<br>
-Seamlessly track attendance, assess performance, and provide feedback. <br>
-Access records, view marks, and communicate effortlessly.
-</h3>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<br>
-# About
+## Available Scripts
 
-The Education Management System is a web-based application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It aims to streamline school management, class organization, and facilitate communication between students, teachers, and administrators.
+In the project directory, you can run:
 
-## Features
+### `npm start`
 
-- **User Roles:** The system supports three user roles: Admin, Teacher, and Student. Each role has specific functionalities and access levels.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **Admin Dashboard:** Administrators can add new students and teachers, create classes and subjects, manage user accounts, and oversee system settings.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- **Attendance Tracking:** Teachers can easily take attendance for their classes, mark students as present or absent, and generate attendance reports.
+### `npm test`
 
-- **Performance Assessment:** Teachers can assess students' performance by providing marks and feedback. Students can view their marks and track their progress over time.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- **Data Visualization:** Students can visualize their performance data through interactive charts and tables, helping them understand their academic performance at a glance.
+### `npm run build`
 
-- **Communication:** Users can communicate effortlessly through the system. Teachers can send messages to students and vice versa, promoting effective communication and collaboration.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Technologies Used
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- Frontend: React.js, Material UI, Redux
-- Backend: Node.js, Express.js
-- Database: MongoDB
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-<br>
+### `npm run eject`
 
-# Installation
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Terminal 1: Setting Up Backend 
-```sh
-cd backend
-npm install
-npm start
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Create a file called .env in the backend folder.
-Inside it write this :
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-```sh
-MONGO_URL = mongodb://127.0.0.1/Education
-```
-If you are using MongoDB Compass you can use this database link but if you are using MongoDB Atlas then instead of this link write your own database link.
+## Learn More
 
-Terminal 2: Setting Up Frontend
-```sh
-cd frontend
-npm install
-npm start
-```
-Now, navigate to `localhost:3000` in your browser. 
-The Backend API will be running at `localhost:5000`.
-<br>
-# Error Solution
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-You might encounter an error while signing up, either a network error or a loading error that goes on indefinitely.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-To resolve it:
+### Code Splitting
 
-1. Navigate to the `frontend > .env` file.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-2. Uncomment the first line. After that, terminate the frontend terminal. Open a new terminal and execute the following commands:
-```sh
-cd frontend
-npm start
-```
-If the issue persists, feel free to contact me for further assistance.
+### Analyzing the Bundle Size
 
-Don't forget to leave a star for this project if you found the solution helpful. Thank you!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
